@@ -1,0 +1,75 @@
+@keyframes fadeIn
+    0%
+        opacity: 0
+        left: 0%
+    100%
+        opacity: 1
+
+#home
+    width: 100%
+    min-height: 100vh
+
+.profile
+    padding: 1rem
+    position: relative
+    height: 90vh
+    display: flex
+    flex-direction: column
+    justify-items: center
+    
+    .profile-picture
+        width: 50%
+        height: 100%
+        object-fit: cover
+        border-radius: 20px
+        position: absolute
+        top: 2rem
+        left: 40%
+
+    img
+        transform-origin: center
+        transform: scale3d(1,1,1) 
+        animation: fadeIn 2s ease-in-out
+
+    .profile-name
+        position: absolute
+        top: 10rem
+        left: 10rem
+        font-size: 4rem
+        font-weight: 900
+        text-align: left
+        padding-right: 1.5rem
+        color: #fff
+        display: flex
+        flex-direction: column
+
+        h1
+            margin: 0
+            padding: 0
+            margin-bottom: -2.8rem 
+            animation: fadeIn 2s ease-in-out
+
+    .profile-description
+        position: absolute
+        bottom: 5rem
+        left: 10.25rem
+        font-size: 1.5rem
+        font-weight: 400
+        text-align: left
+        padding-right: 1.5rem
+        color: #fff
+        color: #59437A
+
+
+@media screen and (max-width: 768px)
+    .profile
+        .profile-picture
+            width: 90%
+            height: 100%
+            object-fit: cover
+            border-radius: 20px
+            position: absolute
+            top: 2rem
+            left: 0
+        .profile-name
+            font-size: 3rem

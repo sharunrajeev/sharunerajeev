@@ -1,0 +1,158 @@
+@keyframes fadeIn
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+$transition-long: 400ms ease-out
+    
+#navbar
+    background-color: #E1B7BF
+    height: 100vh
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    padding-left: 2rem 
+    
+    .logo img
+        height: 8rem
+        border-radius: 5px
+        animation: fadeIn 4s ease-in-out
+
+    ul
+        list-style: none
+        margin: 5rem 0
+        
+        a
+            text-decoration: none
+            display: flex
+            align-items: center
+            margin: 0.25rem 0
+
+            h3
+                color: #976677
+                padding: 0
+                margin: 0
+                font-weight: 500
+                letter-spacing: 0.1rem
+                display: inline-block
+                position: relative
+
+                &::after
+                    content: ''
+                    position: absolute
+                    width: 100%
+                    transform: scaleX(0)
+                    height: 2.5px
+                    border-radius: 5px
+                    bottom: 0
+                    left: 0
+                    background-color: white
+                    transform-origin: bottom left
+                    transition: transform $transition-long
+
+                &:hover::after
+                    transform: scaleX(1)
+                    transform-origin: bottom left
+
+
+// $bg-color: #C262AF
+// $text-color: #59437A
+// $nav-height: 4rem
+// $transition: 200ms ease-out
+
+// #navbar
+//     background-color: $bg-color
+
+//     ul
+//         display: grid
+//         grid-auto-flow: row
+//         height: 100%
+//         gap: 0.5rem
+//         padding: 0rem 1rem
+//         list-style: none
+
+//         li
+//             display: grid
+//             padding: 0.5rem
+
+
+
+// .logo
+//     display: grid
+//     place-content: center
+//     padding: 0rem 1rem
+
+//     img
+//         height: 4rem
+
+// .nav-toggle-label
+//     display: none
+//     cursor: pointer
+
+// #mav-toggle
+//     display: none
+
+// nav
+//     float: right
+
+// @media screen and (max-width: 768px)
+//     #navbar
+//         justify-content: space-between
+//         align-items: center
+
+//         nav
+//             position: fixed
+//             top: 0
+//             bottom: 0
+//             right: 0
+//             width: 14rem
+//             padding-top: $nav-height
+//             transition: clip-path $transition-long, background-color $transition-long
+//             background-color: $bg-color
+
+//         ul
+//             grid-auto-flow: row
+//             grid-template-columns: 1fr
+//             grid-template-rows: none
+//             grid-auto-rows: max-content
+//             gap: 0.5rem
+//             padding: 0rem
+//             padding-top: 1rem
+
+//         a
+//             place-content: flex-start
+//             padding: 0rem 1rem
+
+//     #nav-toggle-label
+//         $size: calc( $nav-height / 3 )
+//         $bar-height: 3.2px
+
+//         display: flex
+//         flex-direction: column
+//         justify-content: space-between
+//         flex-basis: auto
+
+//         width: $size
+//         height: $size
+//         margin-right: $size
+
+//         z-index: 2
+
+//         .bar
+//             display: inline-block
+//             width: 100%
+//             height: $bar-height
+//             background-color: white
+//             border-radius: $bar-height
+//             transition: transform $transition-long
+
+//         #nav-toggle:checked + #nav-toggle-label > .bar:nth-child(1)
+//             transform: translate(0, calc($size / 2 - $bar-height / 2)) rotate(225deg)
+
+//         #nav-toggle:checked + #nav-toggle-label > .bar:nth-child(1)
+//             transform: scaleX(0)
+
+//         #nav-toggle:checked + #nav-toggle-label > .bar:nth-child(1)
+//             transform: translate(0, calc(-1 * $size / 2 + $bar-height / 2)) rotate(135deg)
