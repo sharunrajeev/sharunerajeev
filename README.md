@@ -17,14 +17,14 @@ I'm Sharun, B.Tech undergrad at CUSAT. I am a self taught Full Stack Developer, 
 - 📫 How to reach me: [@sharun_rajeev](https://twitter.com/sharun_rajeev)
 
 ## 📈 GitHub Status
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sharunrajeev&layout=compact)](https://github.com/sharunrajeev)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sharunerajeev&layout=compact)](https://github.com/sharunrajeev)
 
-![Sharun's GitHub stats](https://github-readme-stats.vercel.app/api?username=sharunrajeev&show_icons=true&theme=default)
+![Sharun's GitHub stats](https://github-readme-stats.vercel.app/api?username=sharunerajeev&show_icons=true&theme=default)
 
-[![Sharun's wakatime stats](https://github-readme-streak-stats.herokuapp.com/?user=sharunrajeev)](https://wakatime.com/@sharunrajeev)
+[![Sharun's wakatime stats](https://github-readme-streak-stats.herokuapp.com/?user=sharunerajeev)](https://wakatime.com/@sharunrajeev)
 
 <!-- ## 💻 Coding Time
-[![Sharun's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sharunrajeev)](https://wakatime.com/@sharunrajeev) -->
+[![Sharun's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sharunerajeev)](https://wakatime.com/@sharunrajeev) -->
 
 ## 🧠 Skills
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
