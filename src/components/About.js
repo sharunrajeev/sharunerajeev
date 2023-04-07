@@ -45,7 +45,7 @@ const About = () => {
                             industry.</p>
                     </div>
                     <div className="cv-button">
-                        <a href='https://drive.google.com/file/d/1wflTFqcGIRqOJJMuhDpv5qodJoHH4GBc/view?usp=sharing'><button className="cv-button-item"><p>DOWNLOAD CV</p> <MdGetApp className='mdgetapp' /></button></a>
+                        <a href='https://drive.google.com/file/d/1IU2CoOE3xHXclxGL6Go8xR4l1ZxQn5XE/view?usp=sharing'><button className="cv-button-item"><p>DOWNLOAD CV</p> <MdGetApp className='mdgetapp' /></button></a>
                     </div>
                 </div>
             </div>
